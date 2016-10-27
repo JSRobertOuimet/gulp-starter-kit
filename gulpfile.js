@@ -1,14 +1,14 @@
 // Requiring Node modules
-var gulp         		 = require('gulp');
+var gulp = require('gulp');
 
-var autoprefixer 		 = require('gulp-autoprefixer');
-var browserSync  		 = require('browser-sync');
-var jade         		 = require('gulp-jade');
-var jsmin 			 		 = require('gulp-jsmin');
-var reload       		 = browserSync.reload;
+var autoprefixer = require('gulp-autoprefixer');
+var browserSync = require('browser-sync');
+var jade = require('gulp-jade');
+var jsmin = require('gulp-jsmin');
+var reload = browserSync.reload;
 var removeEmptyLines = require('gulp-remove-empty-lines');
-var rename  		 		 = require('gulp-rename');
-var sass         		 = require('gulp-sass');
+var rename = require('gulp-rename');
+var sass = require('gulp-sass');
 
 // Compiling .jade to .html
 gulp.task('jade', function() {
